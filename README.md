@@ -1,5 +1,7 @@
 # a-littlebit-about-shell-script
 
+Learning tracking from: https://tldp.org/LDP/abs/html/
+
 Internal Variable
 1. echo $BASH (path to binary)
 2. echo $BASHPID | echo $$ (current PID)
