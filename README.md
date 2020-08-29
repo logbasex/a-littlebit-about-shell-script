@@ -9,3 +9,8 @@ Internal Variable
 4. echo $EDITOR 
 5. $EUID ("effective" user ID number) >> diff with $UID
 See more: https://tldp.org/LDP/abs/html/internalvariables.html
+
+
+# Package
+1. Dialog
+- Simple dialog: dialog --title "INPUT BOX"   --clear --inputbox "Welcome" 16 5
