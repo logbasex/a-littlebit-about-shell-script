@@ -30,6 +30,9 @@ Create foo/bar and foo/baz directories
 
 # find
 
+Syntax: find [where to start searching from] [expression determines what to find] [what to find] [what to do]
+
+Ex: We find files [from current directory] which is [directory] with name ['*-cache'] and then [remove all the found files].
 ```
 find . -type d -name '*_cache' -exec rm -r {} +
 ```
