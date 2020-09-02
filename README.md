@@ -17,9 +17,11 @@ See more: https://tldp.org/LDP/abs/html/internalvariables.html
 
 # mkdir
 `Create directory`
-mkdir dir0{1..3}
+mkdir dir0{1..3
+
 `Create a directory and all its parents`
 mkdir -p foo/bar/baz
+
 `Create foo/bar and foo/baz directories`
 mkdir -p foo/{bar,baz}
 
@@ -32,7 +34,11 @@ mkdir -p foo/{bar,baz}
 find . -type d -name '*_cache' -exec rm -r {} +
 ```
 `.`              : recursive search in current directory
+
 `-type d`        : restricted to search only directory
+
 `-name '*_cache'`: search only directories that end with _cache
+
 `-exec`          : executes an external command with optional arguments, in this case, that is `rm -r`.
+
 `{} +`           : appends the found files to the end of the `rm` command.
