@@ -45,3 +45,10 @@ find . -type d -name '*_cache' -exec rm -r {} +
 `-exec`           executes an external command with optional arguments, in this case, that is `rm -r`.
 
 `{} +`            appends the found files to the end of the `rm` command.
+
+Difference between `{} +` and `{} \;` is the first one the `find` command appends found files to the end of the command rather than invoking it once per file (so that the command is run only once, if possible). You can check performance by running these following command:
+
+`time find . -iname '*.jpg' -exec ls {} +`
+
+`time find . -iname '*.jpg' -exec ls {} \;`
+
