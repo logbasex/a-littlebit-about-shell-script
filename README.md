@@ -2,12 +2,20 @@
 
 Learning tracking from: https://tldp.org/LDP/abs/html/
 
+# Shell overview
+1. Available shells 
+`cat /etc/shells`
+2. Current shell
+`echo $0`
+3. Default shell
+`echo $SHELL`
+
 Internal Variable
-1. echo $BASH (path to binary)
-2. echo $BASHPID | echo $$ (current PID)
-3. echo $BASH_VERSION (The version of Bash installed on the system)
-4. echo $EDITOR 
-5. $EUID ("effective" user ID number) >> diff with $UID
+1. `echo $BASH` (path to binary)
+2. `echo $BASHPID | echo $$` (current PID)
+3. `echo $BASH_VERSION` (The version of Bash installed on the system)
+4. `echo $EDITOR` 
+5. `$EUID` ("effective" user ID number) >> diff with $UID
 See more: https://tldp.org/LDP/abs/html/internalvariables.html
 
 
