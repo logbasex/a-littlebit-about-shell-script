@@ -66,3 +66,19 @@ https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
 
 https://www.linode.com/docs/guides/start-service-at-boot/
 
+# Thinkpad power tuning
+
+https://austingwalters.com/increasing-battery-life-on-an-arch-linux-laptop-thinkpad-t14s/
+
+https://unix.stackexchange.com/questions/18279/powertop-tunables-what-does-it-do
+
+https://gvisoc.com/tech/linux/2020/04/26/Lenovo-ThinkPad-T490s-a-Battery-Review-under-Linux.html
+
+https://www.reddit.com/r/thinkpad/wiki/os/linux
+
+https://askubuntu.com/questions/112705/how-do-i-make-powertop-changes-permanent
+
+https://gist.github.com/pauloromeira/787c75d83777098453f5c2ed7eafa42a
+
+https://support.system76.com/articles/battery/
+
