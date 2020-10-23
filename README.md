@@ -60,3 +60,8 @@ Difference between `{} +` and `{} \;` is the first one the `find` command append
 
 `time find . -iname '*.jpg' -exec ls {} \;`
 
+# systemd
+
+https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
+https://www.linode.com/docs/guides/start-service-at-boot/
+
