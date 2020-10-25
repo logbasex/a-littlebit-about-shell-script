@@ -60,6 +60,10 @@ Difference between `{} +` and `{} \;` is the first one the `find` command append
 
 `time find . -iname '*.jpg' -exec ls {} \;`
 
+# test (The test command is used to check file types and compare values)
+test 1 -lt 2 && echo "Yes"
+
+
 # systemd
 
 https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
