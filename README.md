@@ -2,7 +2,7 @@
 
 Learning tracking from: https://tldp.org/LDP/abs/html/
 
-# Shell overview
+## Shell overview
 1. Available shells 
 `cat /etc/shells`
 2. Current shell
@@ -19,11 +19,18 @@ Internal Variable
 See more: https://tldp.org/LDP/abs/html/internalvariables.html
 
 
-# Package
+## Package
 1. Dialog
 - Simple dialog: `dialog --title "INPUT BOX"   --clear --inputbox "Welcome" 16 5`
 
-# mkdir
+## Package management
+- dpkg (Debian Package)
+- apt (Advance Package Tool)
+- aptitude
+
+https://linuxhint.com/debian_package_managers/
+
+## mkdir
 Create directory
 `mkdir dir0{1..3}`
 
@@ -33,10 +40,10 @@ Create a directory and all its parents
 Create foo/bar and foo/baz directories
 `mkdir -p foo/{bar,baz}`
 
-# rmdir (Remove only empty dir)
-# rm (Remove file and dir)
+## rmdir (Remove only empty dir)
+## rm (Remove file and dir)
 
-# find
+## find
 
 Syntax: find `[where to start searching from]` `[expression determines what to find]` `[what to find]` `[what to do]`
 
@@ -60,17 +67,17 @@ Difference between `{} +` and `{} \;` is the first one the `find` command append
 
 `time find . -iname '*.jpg' -exec ls {} \;`
 
-# test (The test command is used to check file types and compare values)
+## test (The test command is used to check file types and compare values)
 test 1 -lt 2 && echo "Yes"
 
 
-# systemd
+## systemd
 
 https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
 
 https://www.linode.com/docs/guides/start-service-at-boot/
 
-# Thinkpad power tuning
+## Thinkpad power tuning
 
 https://austingwalters.com/increasing-battery-life-on-an-arch-linux-laptop-thinkpad-t14s/
 
