@@ -25,8 +25,21 @@ See more: https://tldp.org/LDP/abs/html/internalvariables.html
 
 ## Package management
 - dpkg (Debian Package)
-- apt (Advance Package Tool)
-- aptitude
+- apt (Advance Package Tool) #https://itsfoss.com/apt-get-linux-guide/
+  - apt-cache (`search` packages)
+  - apt-get (`install/upgrade/clean` packages)
+    - update (update the database of available packages)
+      - Hit: Package is not change
+      - Ign: Package is ignore
+      - Get: Package has new version
+    - upgrade (ONLY install new version of package)
+    - disk-upgrade (install new version of package OR remove the older one)
+    - remove (don't touch configuration file)
+    - purge (remove everything relate to packge, include configuration file)
+    - clean
+    - autoclean
+    - auto remove
+- aptitude: `sudo apt install -y aptitude`
 
 https://linuxhint.com/debian_package_managers/
 
