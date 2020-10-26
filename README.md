@@ -39,6 +39,13 @@ See more: https://tldp.org/LDP/abs/html/internalvariables.html
     - clean
     - autoclean
     - auto remove
+    ```
+   The `apt` (first release in 2014) command is meant to be pleasant for end users and does not need to be backward compatible like apt-get(8). Therefore some options are different:
+   - The option DPkg::Progress-Fancy is enabled.
+   - The option APT::Color is enabled.
+   - A new list command is available similar to dpkg --list.
+   - The option upgrade has --with-new-pkgs enabled by default.
+   ```
 - aptitude: `sudo apt install -y aptitude`
 
 https://linuxhint.com/debian_package_managers/
