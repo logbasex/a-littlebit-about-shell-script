@@ -113,3 +113,7 @@ https://gist.github.com/pauloromeira/787c75d83777098453f5c2ed7eafa42a
 
 https://support.system76.com/articles/battery/
 
+# LINUX ARCHIVES
+
+[Bill Gates on making ACPI not work with Linux](https://www.osnews.com/story/17689/bill-gates-on-making-acpi-not-work-with-linux/)
+
