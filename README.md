@@ -117,3 +117,10 @@ https://support.system76.com/articles/battery/
 
 [Bill Gates on making ACPI not work with Linux](https://www.osnews.com/story/17689/bill-gates-on-making-acpi-not-work-with-linux/)
 
+
+# FILE SYSTEM HIERACHY
+
+Command: `man hier`
+
+[What is the purpose of $HOME/.local](https://stackoverflow.com/questions/30274743/what-is-the-purpose-of-home-local)
+  - Install `pip3` package, binary file (exutable file) is located in $HOME/.local, we need to `EXPORT PATH=$PATH:~/.local/bin`
