@@ -124,3 +124,9 @@ Command: `man hier`
 
 [What is the purpose of $HOME/.local](https://stackoverflow.com/questions/30274743/what-is-the-purpose-of-home-local)
   - Install `pip3` package, binary file (exutable file) is located in $HOME/.local, we need to `EXPORT PATH=$PATH:~/.local/bin`
+  
+# UTILITIES
+
+**Default editor**
+
+`sudo update-alternatives --config editor`
