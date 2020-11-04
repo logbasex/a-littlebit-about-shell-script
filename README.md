@@ -136,6 +136,11 @@ Command: `man hier`
 [What is the purpose of $HOME/.local](https://stackoverflow.com/questions/30274743/what-is-the-purpose-of-home-local)
   - Install `pip3` package, binary file (exutable file) is located in $HOME/.local, we need to `EXPORT PATH=$PATH:~/.local/bin`
   
+**/sys/devices**
+  - This directory contains the global device hierarchy of all devices on the system. This directory also contains a platform directory and a system directory. The platform directory contains peripheral devices specific to a particular platform such as device controllers. The system directory contains non-peripheral devices such as CPUs and APICs.
+  
+  `cat /sys/devices/virtual/dmi/id/sys_vendor`
+
 # UTILITIES
 
 **Default editor**
