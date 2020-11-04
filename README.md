@@ -97,6 +97,17 @@ https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
 
 https://www.linode.com/docs/guides/start-service-at-boot/
 
+## dmidecode (DMI information reported by BIOS, DMI stand for Desktop Management Interface)
+```
+Short for Desktop Management Interface, DMI is a framework that enables software to collect information about computer environments across multiple machines in a network.
+```
+
+`sudo dmidecode --type 17` (man dmidecode for more)
+
+## lshw (list hardware)
+
+`sudo lshw -short -C memory`
+
 ## Thinkpad power tuning
 
 https://austingwalters.com/increasing-battery-life-on-an-arch-linux-laptop-thinkpad-t14s/
