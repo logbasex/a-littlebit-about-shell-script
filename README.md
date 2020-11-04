@@ -147,6 +147,10 @@ Command: `man hier`
 
 `sudo update-alternatives --config editor`
 
+**Open Files GUI at command line**
+
+`nautilus ~/home/user/`
+
 # MODES
 
 Linux distros include two modes, GUI(Graphic User Interface) and CLI(Commandline User Interface)
