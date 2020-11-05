@@ -169,6 +169,10 @@ Command: `man hier`
 
 `https://chmodcommand.com/chmod-600/`
 
+**Change user password (local and server)**
+
+`passwd` command.
+
 # MODES
 
 Linux distros include two modes, GUI(Graphic User Interface) and CLI(Commandline User Interface)
