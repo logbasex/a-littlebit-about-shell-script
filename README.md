@@ -173,6 +173,10 @@ Command: `man hier`
 
 `passwd` command.
 
+**Add SSH's public key to server**
+
+`cat ~/.ssh/id_rsa.pub | ssh USER@HOST "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"`
+
 # MODES
 
 Linux distros include two modes, GUI(Graphic User Interface) and CLI(Commandline User Interface)
