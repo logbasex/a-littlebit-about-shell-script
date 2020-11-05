@@ -151,6 +151,10 @@ Command: `man hier`
 
 `nautilus ~/home/user/`
 
+**Kill all process related to an application**
+
+`killall firefox`
+
 # MODES
 
 Linux distros include two modes, GUI(Graphic User Interface) and CLI(Commandline User Interface)
