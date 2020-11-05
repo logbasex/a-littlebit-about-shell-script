@@ -155,6 +155,13 @@ Command: `man hier`
 
 `killall firefox`
 
+**[Check active SSH connections on server](https://www.golinuxcloud.com/list-check-active-ssh-connections-linux/)**
+
+`w`
+
+`who`
+
+
 # MODES
 
 Linux distros include two modes, GUI(Graphic User Interface) and CLI(Commandline User Interface)
