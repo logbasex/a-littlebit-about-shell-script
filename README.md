@@ -161,6 +161,13 @@ Command: `man hier`
 
 `who`
 
+**[Replace existing folder with mv command](https://superuser.com/questions/623392/replace-existing-folder-with-mv-command)**
+
+`rsync -av --delete ~/newstuff ~/oldstuff`
+
+**chmod GUI (Online GUI tool for `chmod` command)**
+
+`https://chmodcommand.com/chmod-600/`
 
 # MODES
 
