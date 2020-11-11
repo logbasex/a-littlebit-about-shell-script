@@ -151,6 +151,10 @@ Command: `man hier`
 
 `nautilus ~/home/user/`
 
+**Disable shortcut in terminal preferences** 
+
+Focus mouse then <kbd>Backspace</kbd>
+
 **Kill all process related to an application**
 
 `killall firefox`
@@ -190,3 +194,9 @@ Linux distros include two modes, GUI(Graphic User Interface) and CLI(Commandline
 To get back to your GUI session (the normal desktop):
 
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F7</kbd> (or <kbd>F2</kbd> on 17.10 and newer)
+
+# SHORTCUT
+
+## Terminal
+
+https://skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/
