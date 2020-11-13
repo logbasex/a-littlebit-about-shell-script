@@ -1,5 +1,9 @@
 # a-littlebit-about-shell-script
 
+## DEBUG shell script
+
+`bash -x`
+
 Learning tracking from: https://tldp.org/LDP/abs/html/
 
 ## Shell overview
