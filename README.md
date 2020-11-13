@@ -143,6 +143,9 @@ Command: `man hier`
 
 # UTILITIES
 
+**C/C++ Compiler**
+`sudo apt install gcc`
+
 **Default editor**
 
 `sudo update-alternatives --config editor`
