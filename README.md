@@ -1,9 +1,5 @@
 # a-littlebit-about-shell-script
 
-## DEBUG shell script
-
-`bash -x`
-
 Learning tracking from: https://tldp.org/LDP/abs/html/
 
 ## Shell overview
@@ -146,8 +142,12 @@ Command: `man hier`
   `cat /sys/devices/virtual/dmi/id/sys_vendor`
 
 # UTILITIES
+**DEBUG shell script**
+
+`bash -x`
 
 **C/C++ Compiler**
+
 `sudo apt install gcc`
 
 **Default editor**
