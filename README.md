@@ -142,6 +142,12 @@ Command: `man hier`
   `cat /sys/devices/virtual/dmi/id/sys_vendor`
 
 # UTILITIES
+**Working with service**
+
+`service  --status-all | grep +`
+
+`systemctl --type=service --state=active`
+
 **DEBUG shell script**
 
 `bash -x`
