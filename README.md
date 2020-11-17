@@ -142,6 +142,11 @@ Command: `man hier`
   `cat /sys/devices/virtual/dmi/id/sys_vendor`
 
 # UTILITIES
+**[Easily and Quickly Install Group Softwares in Debian and Ubuntu](https://www.tecmint.com/tasksel-install-group-software-lamp-mail-dns-in-debian-ubuntu/)**
+
+`sudo apt update && sudo apt install tasksel`
+ -  Customize task: https://www.theurbanpenguin.com/creating-tasksel-custom-tasks-ubuntu-16-04/
+
 **Working with service**
 
 `service  --status-all | grep +`
