@@ -142,6 +142,10 @@ Command: `man hier`
   `cat /sys/devices/virtual/dmi/id/sys_vendor`
 
 # UTILITIES
+**Check architecture( [It isn't a problem if you get `amd64` while you're using Intel processor, AMD64 refers to the architecture, not the manufacturer](https://askubuntu.com/questions/608744/is-it-a-problem-to-have-packages-with-amd64-architecture-when-i-have-an-intel))**
+
+`dpkg --print-architecture`
+
 **[Easily and Quickly Install Group Softwares in Debian and Ubuntu](https://www.tecmint.com/tasksel-install-group-software-lamp-mail-dns-in-debian-ubuntu/)**
 
 `sudo apt update && sudo apt install tasksel`
