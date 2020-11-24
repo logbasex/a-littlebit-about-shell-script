@@ -3,6 +3,11 @@
 Learning tracking from: https://tldp.org/LDP/abs/html/
 
 ## Shell overview
+
+**BASH ([Bourne-again shell: a pun on born again shell](https://www.quora.com/Why-is-Bash-called-the-Bourne-again-shell))**
+
+[Difference Bash and Shell](https://www.quora.com/What-is-the-difference-between-Shell-scripting-and-Bash-Shell-scripting)
+
 1. Available shells 
 `cat /etc/shells`
 2. Current shell
