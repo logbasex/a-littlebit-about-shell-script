@@ -155,6 +155,12 @@ Command: `man hier`
 
 `sudo apt update && sudo apt install tasksel`
  -  Customize task: https://www.theurbanpenguin.com/creating-tasksel-custom-tasks-ubuntu-16-04/
+ 
+**Restart command**
+`init 6`
+
+**Log out**
+`gnome-session-quit`
 
 **Working with service**
 
