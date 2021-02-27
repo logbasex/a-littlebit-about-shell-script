@@ -23,6 +23,9 @@ Internal Variable
 5. `$EUID` ("effective" user ID number) >> diff with $UID
 See more: https://tldp.org/LDP/abs/html/internalvariables.html
 
+- Special bash variable
+   - https://javarevisited.blogspot.com/2011/06/special-bash-parameters-in-script-linux.html#axzz6neSdmUHe
+
 
 ## Package
 1. Dialog
